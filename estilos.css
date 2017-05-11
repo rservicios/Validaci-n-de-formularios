@@ -1,0 +1,119 @@
+@charset "utf-8";
+
+label.description {
+    border: none;
+    color: #222;
+    display: block;
+    font-size: 95%;
+    font-weight: 700;
+    line-height: 150%;
+    padding: 0 0 1px;
+}
+form ul {
+    font-size: 100%;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+form li {
+    display: block;
+    margin: 0;
+    padding: 4px 5px 2px 9px;
+    position: relative;
+	width: 75%;
+}
+  form li:hover .guidelines  {
+	  visibility:visible;
+  }
+ form .guidelines {
+    background: #f5f5f5;
+    border: 1px solid #e6e6e6;
+    color: #444;
+    font-size: 80%;
+    left: 50%;
+    line-height: 130%;
+    margin: 0 0 0 8px;
+    padding: 8px 10px 9px;
+    position: absolute;
+    top: 0;
+    visibility: hidden;
+    width: 42%;
+    z-index: 1000;
+}
+.aviso{
+	position:relative;
+	display: none;
+	background-color: rgba(237,14,17,1.00);
+	color: rgba(255,255,255,1.00);
+	padding: 0.5rem;
+}
+.buttons {
+    display: block;
+    margin-top: 10px;
+	text-align: center;
+} 
+.form_contenedor{
+	background: #fff;
+    border: 1px solid #ccc;
+    margin: 0 auto;
+    text-align: left;
+    max-width: 40rem;
+}
+.formulario{
+	font-family: Lucida Grande, Tahoma, Arial, Verdana, sans-serif;
+    font-size: small;
+	margin: 0.5rem 1rem 0;
+    padding: 0 0 1rem;
+}
+input.button_text {
+    font-size: 120%;
+    padding: .6rem 0.8rem;
+    background-color: #f19359;
+    color: beige;
+    cursor: pointer;
+}
+input.text {
+    background: #fff;
+    border-bottom: 1px solid #ddd;
+    border-left: 1px solid #c3c3c3;
+    border-right: 1px solid #c3c3c3;
+    border-top: 1px solid #7c7c7c;
+    color: #333;
+    font-size: 100%;
+    margin: 0;
+    padding: 2px 0 2px .5rem;
+}
+input.large {
+    width: 75%;
+}
+input.medium
+{
+	width:30%;
+}
+.pass {
+	text-security: square;
+    -webkit-text-security: square;
+    -moz-text-security: square;
+}
+textarea.textarea {
+    background: #fff;
+    border-bottom: 1px solid #ddd;
+    border-left: 1px solid #c3c3c3;
+    border-right: 1px solid #c3c3c3;
+    border-top: 1px solid #7c7c7c;
+    color: #333;
+    font-family: "Lucida Grande", Tahoma, Arial, Verdana, sans-serif;
+    font-size: 100%;
+    margin: 0;
+    width: 60%;
+    padding-left: .5rem;
+}
+textarea.medium {
+    height: 10em;
+}
+.titulo{
+	text-align: center;
+}
+
+
